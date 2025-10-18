@@ -758,6 +758,12 @@ nav {
         height: 150px;
         border: none;
     }
+    .job-role, .field-of-study {
+        font-size: 20px;
+    }
+    .company-name {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 300px) {
