@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
 
 
 var typed = new Typed('#typed-role', {
-    strings : ["Software", "Full-Stack", "Python", "Web"],
+    strings : ["Software", "Full-Stack", "Python", "Java","Web"],
     typeSpeed: 100,
     backSpeed: 60,
     loop : true
