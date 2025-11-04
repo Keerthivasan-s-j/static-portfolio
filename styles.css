@@ -97,9 +97,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    max-height: 800px;
-    height: calc(100vh - 80px);
+    /* margin-top: 80px; */
+    /* max-height: 800px; */
+    height: 95vh;
     /* background-color: #4400ff32; */
 }
 
@@ -123,14 +123,13 @@ nav {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .hero-name {
     /* font-size: 60px;
     font-family: Bitcount Prop Single Ink;
     margin-left: 10px; */
-    font-size: 50px;
     color: #8B4513;
 }
 
@@ -150,13 +149,14 @@ nav {
     width: 100%;
     gap: 20px;
     padding: 0px 10px;
+    margin-bottom: 20px;
 }
 
 .btn {
     flex-grow: 1;
     border-radius: 6px;
     border: none;
-    padding: 14px 16px;
+    padding: 12px 14px;
     cursor: pointer;
     text-align: center;
 }
@@ -164,9 +164,9 @@ nav {
 .primary-btn {
     background-color: #529ce8;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
-    max-width: 300px;
+    max-width: 200px;
     width: 100%;
 }
 
@@ -179,14 +179,14 @@ nav {
 .secondary-btn {
     background-color: #E7EFF3;
     color: #3f4759;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
-    max-width: 300px;
+    max-width: 200px;
     width: 100%;
 }
 
 .position {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -201,13 +201,6 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-/* .typed-cursor {
-    font-weight: 900;
-    font-size: 2rem;
-    color: #ff6a00d7;
-} */
-
-
 .social-media-links {
     margin-top: 20px;
 }
@@ -218,8 +211,9 @@ nav {
 }
 
 .about-me {
-    padding: 0 20px;
+    padding: 80px 20px;
     margin-top: 50px;
+    background-color: #ffe3cf50;
 }
 
 .about-me-cnt {
@@ -249,94 +243,6 @@ nav {
     margin-top: 30px;
     background-color: #8B4513;
 }
-
-/* .skills {
-    background-color: rgb(245, 245, 110);
-    padding: 60px 0;
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 8px;
-    background-color: white;
-    border-radius: 16px;
-}
-
-.skills-card {
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    max-width: 350px;
-    margin: 0 12px;
-    gap: 30px;
-    transition: all 0.3s ease-in-out;
-}
-
-.skills-cnt {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.skills-level-cnt {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.skills-level-cnt p {
-    display: flex;
-    align-items: center;
-    margin: 8px 0;
-}
-
-.beginner-marker {
-    width: 12px; height: 12px;
-    background-color: #e03c2d;
-    border-radius: 50%;
-    margin-right: 8px;
-}
-
-.intermediate-marker {
-    width: 12px; height: 12px;
-    background-color: #529ce8;
-    border-radius: 50%;
-    margin-right: 8px;
-}
-
-.advanced-marker {
-    width: 12px; height: 12px;
-    background-color: #42ff42da;
-    border-radius: 50%;
-    margin-right: 8px;
-} */
-
-/* .skill {
-    padding: 8px 14px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.05s ease-in-out;
-}
-
-.skill:hover {
-    transform: scale(1.05);
-}
-
-.skill.advanced {
-    background-color: #9cff9c5f;
-    color: #008000;
-}
-
-.skill.intermediate {
-    background-color: #529de81d;
-    color: #529ce8;
-}
-
-.skill.beginner {
-    background-color: #f28b8241;
-    color: #e03c2d;
-} */
 
 .skills {
     padding: 0 20px;
@@ -395,11 +301,13 @@ nav {
 }
 
 .skill.intermediate {
-    background-color: #e2edfc;
+    background-color: #e2edfc; */
     color: #1e6bd6;
 }
 
 .skill.beginner {
+    /* background-color: rgb(255, 255, 203);
+    color: rgb(162, 162, 0); */
     background-color: #fde4e0;
     color: #d64531;
 }
@@ -428,43 +336,6 @@ nav {
 .beginner-marker { background-color: #d64531; }
 .intermediate-marker { background-color: #1e6bd6; }
 .advanced-marker { background-color: #007f00; }
-
-
-/* .skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 150px;
-    padding: 8px;
-    border: 1px solid rgba(192, 192, 192, 0.301);
-    border-radius: 5px;
-    flex-wrap: wrap;
-}
-
-.skill-icon-cnt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.skills-icon {
-    width: 80px;
-}
-
-.java-icon, .python-icon {
-    width: 120px;
-} */
-
-/* .projects-grid {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 80px;
-    flex-wrap: wrap;
-    flex-grow: 1;
-} */
 
 .projects-grid {
     display: grid;
@@ -746,9 +617,6 @@ nav {
     header {
         display: none;
     }
-    .skills-grid, .projects-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
     .hero-text .name { font-size: 35px; }
     .hero-name { font-size: 35px; }
     .position { font-size: 20px; }
@@ -773,11 +641,57 @@ nav {
     .hero-text .name {
         font-size: 25px;
     }
-
+    
+    .skills-grid, .projects-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
     .job-role, .field-of-study {
         font-size: 18px;
     }
     .company-name {
         font-size: 16px;
     }
+}
+
+.cert-section {
+    padding: 60px 20px;
+}
+
+.cert-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cert-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f7cbff2e;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 237, 251);
+}
+
+.cert-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cert-source,
+.cert-score {
+    font-size: 14px;
+    margin-top: 5px;
 }
