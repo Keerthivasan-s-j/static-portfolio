@@ -97,10 +97,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 80px; */
-    /* max-height: 800px; */
     height: 95vh;
-    /* background-color: #4400ff32; */
+
 }
 
 .hero-content {
@@ -170,6 +168,10 @@ nav {
     width: 100%;
 }
 
+.primary-btn a{
+    color: white;
+}
+
 .nav-btn {
     font-size: 14px;
     font-weight: 400;
@@ -183,6 +185,10 @@ nav {
     font-size: 18px;
     max-width: 200px;
     width: 100%;
+}
+
+.secondary-btn a {
+    color: #3f4759;
 }
 
 .position {
@@ -206,8 +212,14 @@ nav {
 }
 
 .social-media-links i{
+    color: #0c0d19;
     font-size: 30px;
     margin: 0 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.social-media-links i:hover {
+    transform: scale(1.2);
 }
 
 .about-me {
@@ -301,7 +313,7 @@ nav {
 }
 
 .skill.intermediate {
-    background-color: #e2edfc; */
+    background-color: #e2edfc;
     color: #1e6bd6;
 }
 
@@ -414,6 +426,7 @@ nav {
     margin-bottom: 10px;
 }
 .project-links a {
+    color: #2d00b5;
     font-size: 14px;
 }
 .project-links a>i {
